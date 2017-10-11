@@ -1,4 +1,4 @@
-package Dispatch;
+package Dispatch.Static_1;
 
 /**
  * 静态分派（重载）
