@@ -3,6 +3,10 @@ package Dispatch.Static_2;
 import java.io.Serializable;
 
 /**
+ * 重载中的模糊匹配
+ * 原因：字面量不需要定义（不需要Human human = new Man()），
+ * 所以字面量没有显示的静态类型，而重载中的参数是通过静态类型
+ * 来判别，所以他就无法准确的判断
  * Created by ddp on 2017/10/11.
  */
 public class Overload {
